@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Donor Information</title>
+	</head>
+    <body>
+        <form method="POST" action="#">
+            <h1 style="color: rgb(223, 16, 16);">Donor Information</h1>
+            <table align="center">
+                <tr>
+                    <td>
+                        <label for="fname">Firstname*</label>
+                        <input type="text" id="fname" name="fname" size="40" required><br>
+                        <label for="lname">Lastname* </label>
+                        <input type="text" id="lname" name="lname" size="40" required><br>
+                        <label for="company">company </label>
+                        <input type="text" id="company" name="company" size="40" required><br>
+                        <label for="address1">Address1*</label>
+                        <input type="text" id="address1" name="address1" size="40" required><br>
+                        <label for="address2">Address2</label>
+                        <input type="text" id="address2" name="address2" size="40" required><br>
+                        <label for="city">City*</label>
+                        <input type="text" id="city" name="city" size="40" required><br>
+                        <label for="state">State*</label>
+                        <select id="state" name="State">
+                            <option value="#">Select a state</option>
+                            <option value="dhaka">Dhaka</option>
+                            <option value="mymensingh">Mymensingh</option>
+                            <option value="comilla">Comilla</option>
+                        </select><br>
+                        <label for="zip">Zip Code*</label>
+                        <input type="text" id="zip" name="zip" size="40" required><br>
+                        <label for="country">Country*</label>
+                        <select id="country" name="country">
+                            <option value="#">Select a Country</option>
+                            <option value="bangladesh">Bangladesh</option>
+                            <option value="india">India</option>
+                            <option value="canada">Canada</option>
+                        </select><br>
+                        <label for="phone">Phone</label>
+                        <input type="number" id="phone" name="phone" size="40" required><br>
+                        <label for="fax">Fax </label>
+                        <input type="text" id="fax" name="fax" size="40" required><br>
+                        <label for="email">Email*</label>
+                        <input type="text" id="email" name="email" size="40" required><br>
+                        <label for="email">Donation amount*</label>
+                        <input type="radio"  value="none"> None 
+                        <input type="radio"  value="50"> $50
+                        <input type="radio"  value="75"> $75
+                        <input type="radio"  value="100"> $100
+                        <input type="radio"  value="250"> $250
+                        <input type="radio"  value="other"> other
+                        <p>Check a button or type in your amount</p>
+                        <label for="oamount">Other Amount $</label>
+                        <input type="text" id="oamount" name="oamount" size="40" required><br>
+                        <label for="ramount">Recurring Donation</label>
+                        <input type="checkbox" id="ramount" name="ramount" value="ramount">
+                        <label for="ramount"> I am interested in giving no a regurler basis.</label><br>
+                        <p>Check if yes</p>
+                        <label for="mcc">Monthly credit card $</label>
+                        <input type="text" id="mcc" name="mcc" size="10"> for  <input type="text" id="mcc" name="mcc" size="10"> months
+
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
